@@ -18,7 +18,7 @@ jobs:
               uses: actions/setup-node@v3 # 配置脚本来自 https://github.com/actions/setup-node
               with:
                   node-version: '14'
-            - run: npm install @aktiv/cli -g
+            - run: npm install @aktiv/cli typescript -g
             - name: Install pnpm
               uses: pnpm/action-setup@v2.2.2
               id: pnpm-install
