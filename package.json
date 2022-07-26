@@ -13,6 +13,8 @@
     "author": "",
     "dependencies": {
         "@aktiv/launcher": "^1.0.5",
+        "@sentry/react": "^7.7.0",
+        "@sentry/tracing": "^7.7.0",
         "antd": "^4.21.7",
         "react": "^17.0.2",
         "react-chrono": "^1.17.2",
